@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial,sans-serif;
+        }
+        #s1{
+            width: auto;
+            height: 500px;
+            margin-left: 100px;
+            margin-top: 100px;
+            display: flex;
+            position: relative;
+        }
+        #a{
+            width: 50%;
+        }
+        #d1{
+            font-size: 70px;
+            position: absolute;
+            top: -160px;
+            left: -40px;
+            margin: 0;
+            z-index: 1;
+
+        }
+        #d2 img{
+            width: 700px;
+            height: 600px;
+        }
+        #d3{
+            width: 700px;
+            height: 600px;
+            background-color:#6ac17d;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+            transform: translate(0px) rotate(3deg);
+        }
+        #b{
+            position: absolute;
+            top: -50px;
+            left: 650px;
+        }
+        #b img{
+            width: 200px;
+            height: 200px;
+        }
+        #d11, #d22, #d33{
+            display: flex;
+            margin: 20px 0;
+        }
+        #d11 div, #d22 div, #d33 div{
+            padding: 15px 20px;
+        }
+        #b div p{
+            font-size: 26px;
+            margin: 0;
+        }
+        #d4 h3{
+            margin: 10px 0;
+        }
+        #d4 h1{
+            font-size: 40px;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <section id="s1">
+        <div id="a">
+            <div id="d2">
+                <img src="../image/img15.jpg" alt="">
+            </div>
+            <div id="d1">
+                <h1>Discovery</h1>
+            </div>
+            <div id="d3"></div>
+            <div id="d4">
+                <h3>SHARK WEEK</h3>
+                <h1>Best of Shark Week 2023</h1>
+            </div>
+        </div>
+        <div id="b">
+            <div id="d11">
+                <img src="../image/img11.jpg" alt="">
+                <div>
+                    <h3>SHARK WEEK: THE PODCAST</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>                
+            </div>
+            <div id="d22">
+                <img src="../image/img12.jpg" alt="">
+                <div>
+                <h3>NATURE IN FOCUS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            </div>
+            <div id="d33">
+                <img src="../image/img13.jpg" alt="">
+                <div>
+                <h3>EXPLORATION</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            </div>
+        </div>        
+    </section>
+</body>
+</html>
